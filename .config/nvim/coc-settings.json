@@ -26,31 +26,34 @@
         }
       }
     },
+    "rust-analyzer": {
+        "enable": true
+    },
     "suggest.completionItemKindLabels": {
-        "method": "  ",
-        "function": "  ",
-        "variable": "[]",
+        "method": "  ",
+        "function": "  ",
+        "variable": "  ",
         "field": "  ",
-        "typeParameter": "<>",
-        "constant": "  ",
-        "class": "  ",
-        "interface": "  ",
-        "struct": "  ",
-        "event": "  ",
-        "operator": "  ",
-        "module": "  ",
-        "property": "  ",
-        "enum": "  ",
+        "typeParameter": "  ",
+        "constant": "  ",
+        "class": "  ",
+        "interface": "  ",
+        "struct": "  ",
+        "event": "  ",
+        "operator": "  ",
+        "module": " 󰅩 ",
+        "property": "  ",
+        "enum": "  ",
         "reference": "  ",
-        "keyword": "  ",
-        "file": "  ",
-        "folder": " ﱮ ",
-        "color": "  ",
-        "unit": "  ",
-        "snippet": "  ",
-        "text": "  ",
+        "keyword": "  ",
+        "file": "  ",
+        "folder": "  ",
+        "color": "  ",
+        "unit": "  ",
+        "snippet": "  ",
+        "text": " 󰀬 ",
         "constructor": "  ",
-        "value": "  ",
+        "value": " 󰓼 ",
         "enumMember": "  "
     },
     "coc.source.around.firstMatch": false,
@@ -65,5 +68,8 @@
     "suggest.floatConfig": {
 	"highlight": "Float",
         "border": true
-    }
+    },
+    "coc.source.vimtex.enable": true,
+    "nix.enableLanguageServer": true,
+    "nix.serverPath": "nixd"
 }
